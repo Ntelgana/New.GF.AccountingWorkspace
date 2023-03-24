@@ -1,0 +1,475 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-shipment-financial-summary-for-us-sfo;verify-if-the-charge-code-can-be-delete-for-a-pay-to-party/customercode",
+        "keyword": "Scenario",
+        "line": 1429,
+        "name": "Verify if the charge code can be DELETE for a Pay-to party/customercode",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6945973199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 1430,
+            "name": "I am on the shipment Financial editor page for ocean shipment",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4333783500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1431,
+            "name": "I Verify the Title of the landing page as \"Shipment Financial Summary\"",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4853998300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1432,
+            "name": "I click on the hamburger menu on the landing page",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3121420900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1434,
+            "name": "I verify the branch \"9850\" for charge code entry exists or not",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:193"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2018788199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1435,
+            "name": "If Charge code entry exists ignore else add new branch financials for the shipment",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:205"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65384200.00000001
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1436,
+            "name": "I land on the Charge code entry UI",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:251"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2037318800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1437,
+            "name": "Verify if the expense party \"T3472027 - C. H. Robinson Company Inc\" already exists",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1508"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2013774100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1439,
+            "name": "I click on the Add Expense party button on Charge code entry UI page",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1485"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 622699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1440,
+            "name": "I verify if the Expense party input field with a arrow dropdown is displayed to the user",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1499"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1441,
+            "name": "I enter \"T3472027\" and selecting the Expense party from the dropdown",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1516"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 366500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1442,
+            "name": "I click on the arrow to expand the dropdown",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:417"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1167730700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1443,
+            "name": "I click on Expense section Charge Code text box and input a charge code value \"405 - Fuel Surcharge\"",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1564"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2656761700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1444,
+            "name": "I click on the dropdown value in Expense section charge code text box \"405 - Fuel Surcharge\"",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1579"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40781900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1446,
+            "name": "I click on the Expense section Unit type and select a unit type \"F\"",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1586"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3148121099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1447,
+            "name": "I enter a value for Expense section Units field \"10\"",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1607"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4131079399.9999995
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1448,
+            "name": "I enter a value for Expense section Per Units field \"50\"",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1639"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2104517300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1449,
+            "name": "I click and the currency \"AED\" from the dropdown in the currency text box",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1672"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2495618900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1450,
+            "name": "I click on the Expense section total Charge field",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1702"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2059084499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1451,
+            "name": "I verify if the Expense section total Charge amount to be Paid to the pay-to party is calculated with units \"10\" and per unit \"50\" and displayed to the user in the Total Charge field",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1713"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36886600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1452,
+            "name": "I would refresh the page",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:749"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2012099299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1453,
+            "name": "I land on the Charge code entry UI",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:251"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2227389800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1454,
+            "name": "I click on the last arrow to expand the dropdown",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:798"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2052131699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1455,
+            "name": "I would click on the checkbox on the newly added charge code",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:756"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2104437199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1456,
+            "name": "I click Action Button on the latest added T code for this test case scenario",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1536"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2062869100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1457,
+            "name": "I verify remove party option is disabled in actions menu when charge code is selected",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1798"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7150099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1458,
+            "name": "I would click on the Remove Charge Codes option",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:777"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53445099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1459,
+            "name": "I verify the warning modal to remove the selected charge Codes",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:782"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 24370999,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -Confirm\n    +Warning\n\n    at World.<anonymous> (C:\\Users\\TELGNAV\\OneDrive - C.H. Robinson\\Desktop\\Trial_Automation\\built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:785:37)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\TELGNAV\\OneDrive - C.H. Robinson\\Desktop\\Trial_Automation\\built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:5:58)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1460,
+            "name": "I click on the OK button on the warning modal",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:792"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1461,
+            "name": "I land on the Charge code entry UI",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:251"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1463,
+            "name": "I verify if the charge code is removed from the Expense party \"T3472027\"",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:806"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1464,
+            "name": "I click Action Button on the latest added T code for this test case scenario",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1536"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 1465,
+            "name": "I click on Remove Party option on the Expense Actions menu button",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:1557"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 1466,
+            "name": "I click on YES button on the Delete party Modal",
+            "match": {
+              "location": "built\\stepdefinitions\\ShipmentFinancialEditorOcean.js:465"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1772400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sample",
+            "line": 1428
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-shipment-financial-summary-for-us-sfo",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Verify Shipment Financial Summary For US SFO",
+    "tags": [],
+    "uri": "features\\ShipmentFinancialSummaryHomepage.feature"
+  }
+]

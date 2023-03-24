@@ -1,0 +1,7 @@
+node_modules/*
+output/*
+*.dll
+node_modules/puppeteer/.local-chromium/win64-686378/chrome-win/chrome_200_percent.pak
+node_modules/puppeteer/.local-chromium/win64-686378/chrome-win/chrome_elf.dll
+node_modules/puppeteer/.local-chromium/win64-686378/chrome-win/chrome.dll
+

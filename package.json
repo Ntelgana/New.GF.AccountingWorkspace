@@ -1,0 +1,42 @@
+{
+  "name": "shortCircuit",
+  "version": "1.0.0",
+  "description": "setup1",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "tsc && cucumber-js ./features/*.feature --require ./built/*/*.js --tags @sample -f json:cucumber-report.json",
+    "test": "npm run cucumber ",
+    "report": "node report.js",
+    "build": "tsc"
+  
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.1",
+    "@jest/types": "^27.5.1",
+    "@types/cucumber": "^4.0.4",
+    "@types/node": "^10.7.1",
+    "@types/puppeteer": "^1.6.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber-html-reporter": "^4.0.5",
+    "jest-puppeteer": "^6.1.0",
+    "mkdirp": "^0.5.1",
+    "puppeteer": "^1.20.0",
+    "puppeteer-to-istanbul": "^1.2.2",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "tsconfig.json": "^1.0.10",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "@jest/types": "^27.5.1",
+    "date-and-time": "^2.2.1",
+    "date-time": "^4.0.0",
+    "jest-puppeteer": "^6.1.0",
+    "moment": "^2.29.1",
+    "puppeteer-autoscroll-down": "^1.1.0"
+  }
+}
