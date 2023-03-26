@@ -14,11 +14,10 @@ steps:
   inputs:
     versionSpec: '16.x'
   displayName: 'Install Node.js'
-- task: Npm@1
-  inputs:
-    command: 'custom'
-    customCommand: 'install @types/cucumber @types/node @types/puppeteer --save-dev'
 
+- script: |
+    npm install @types/cucumber @types/node @types/puppeteer --save-dev
+  displayName: 'npm install types'
 - script: |
     npm install
     npm run build
