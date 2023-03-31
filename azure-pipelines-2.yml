@@ -14,12 +14,8 @@ steps:
   inputs:
     versionSpec: '16.x'
   displayName: 'Install Node.js'
+
 - script: |
-    npm install --save-dev @types/cucumber
-    npm install --save-dev @types/node
-    npm install --save-dev @types/puppeteer
-  displayName: 'npm install and build'
-- script: |
-    npm install
+    npm i
     npm run build
   displayName: 'npm install and build'
