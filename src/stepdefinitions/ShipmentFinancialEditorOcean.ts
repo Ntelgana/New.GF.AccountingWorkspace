@@ -31,7 +31,7 @@ Given(
     // await this.page.waitForTimeout(5000);
     await page.sendElementText(ShipmentFinEditorLandingPage.usernameTextBox, "telgnav@chrobinson.com");
     // await this.page.type(landingPage.usernameTextBox, "telgnav@chrobinson.com", {delay: 100});
-    await page.sendElementText(ShipmentFinEditorLandingPage.passwordTextBox, "Newcastle@123456");
+    await page.sendElementText(ShipmentFinEditorLandingPage.passwordTextBox, "Alphonsa@123456");
     await page.clickElement(ShipmentFinEditorLandingPage.signinButton);
     //await this.page.screenshot({path:'testfailed.png'});
     console.log("Shipment Financial Editor landing page login successfully");
