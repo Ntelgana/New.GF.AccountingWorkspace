@@ -782,7 +782,7 @@ Then('I would click on the Remove Charge Codes option', function () {
 Then('I verify the warning modal to remove the selected charge Codes', function () {
     return __awaiter(this, void 0, void 0, function* () {
         const removeCCModal = yield hooks_1.page.getTextFromXpath(ShipmentFinSummaryHomepage_1.ShipmentFinSummaryHome.CCCodePartyRemovepartyWarningModalTitle);
-        yield expect(removeCCModal).equals("Confirm");
+        yield expect(removeCCModal).equals("Warning");
         console.log("The  is verified modal title text is verified ");
         const removeCCModalBody = yield hooks_1.page.getTextFromXpath(ShipmentFinSummaryHomepage_1.ShipmentFinSummaryHome.CCCodePartyRemovepartyWarningModalBody);
         yield expect(removeCCModalBody).equals("Are you sure you want to remove the selected charge codes?");

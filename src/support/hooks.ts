@@ -5,7 +5,7 @@ import { searchPage } from "../pages/searchPage";
 import {ShipmentFinEditorLandingPage} from "../pages/ShipmentFinancialEditorLandingPage";
 import { shipmentNumbers } from "../data/data";
 import { scrollPageToBottom } from "puppeteer-autoscroll-down";
-import { setDefaultTimeout } from "@cucumber/cucumber";
+import { setDefaultTimeout } from "cucumber";
 const moment = require('moment');
 
 const page: PageHelper = new PageHelper();

@@ -15,7 +15,7 @@ const pageHelper_1 = require("../pages/pageHelper");
 // import { landingPage } from "../pages/landingPage";
 const ShipmentFinancialEditorLandingPage_1 = require("../pages/ShipmentFinancialEditorLandingPage");
 const data_1 = require("../data/data");
-const cucumber_1 = require("@cucumber/cucumber");
+const cucumber_1 = require("cucumber");
 const moment = require('moment');
 const page = new pageHelper_1.PageHelper();
 exports.page = page;

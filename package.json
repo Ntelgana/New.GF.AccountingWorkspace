@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cucumber": "tsc && cucumber-js ./features/*.feature --require ./built/*/*.js --tags @sample -f json:cucumber-report.json",
-    "test": "npm run cucumber",
+    "test": "npm run cucumber ",
     "report": "node report.js",
     "build": "tsc"
   
