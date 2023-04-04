@@ -16,7 +16,10 @@ steps:
   displayName: 'Install Node.js'
 
 - script:
-    npm install @types/cucumber
+    npm install @types/cucumber @types/node @types/puppeteer
+  displayName: 'npm install cucumber and puppeteer'
+
+- script:
     npm install
     npm run build
     npm run test
