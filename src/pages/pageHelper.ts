@@ -1,7 +1,7 @@
 import { type } from 'os';
 import { Browser, ElementHandle, launch, Page, Response } from 'puppeteer';
 import { scrollPageToBottom } from 'puppeteer-autoscroll-down';
-import { globalChargeCodedisplayScreen } from './GlobalChargeCodedisplayScreen';
+
 
 
 

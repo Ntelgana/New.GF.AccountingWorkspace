@@ -35,7 +35,7 @@ Given("I am on the shipment Financial editor page for ocean shipment", function 
         // await this.page.waitForTimeout(5000);
         yield hooks_1.page.sendElementText(ShipmentFinancialEditorLandingPage_1.ShipmentFinEditorLandingPage.usernameTextBox, "telgnav@chrobinson.com");
         // await this.page.type(landingPage.usernameTextBox, "telgnav@chrobinson.com", {delay: 100});
-        yield hooks_1.page.sendElementText(ShipmentFinancialEditorLandingPage_1.ShipmentFinEditorLandingPage.passwordTextBox, "Newcastle@123456");
+        yield hooks_1.page.sendElementText(ShipmentFinancialEditorLandingPage_1.ShipmentFinEditorLandingPage.passwordTextBox, "Alphonsa@123456");
         yield hooks_1.page.clickElement(ShipmentFinancialEditorLandingPage_1.ShipmentFinEditorLandingPage.signinButton);
         //await this.page.screenshot({path:'testfailed.png'});
         console.log("Shipment Financial Editor landing page login successfully");
@@ -782,7 +782,7 @@ Then('I would click on the Remove Charge Codes option', function () {
 Then('I verify the warning modal to remove the selected charge Codes', function () {
     return __awaiter(this, void 0, void 0, function* () {
         const removeCCModal = yield hooks_1.page.getTextFromXpath(ShipmentFinSummaryHomepage_1.ShipmentFinSummaryHome.CCCodePartyRemovepartyWarningModalTitle);
-        yield expect(removeCCModal).equals("Warning");
+        yield expect(removeCCModal).equals("Confirm");
         console.log("The  is verified modal title text is verified ");
         const removeCCModalBody = yield hooks_1.page.getTextFromXpath(ShipmentFinSummaryHomepage_1.ShipmentFinSummaryHome.CCCodePartyRemovepartyWarningModalBody);
         yield expect(removeCCModalBody).equals("Are you sure you want to remove the selected charge codes?");
