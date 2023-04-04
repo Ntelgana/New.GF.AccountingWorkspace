@@ -21,6 +21,10 @@ steps:
     npm run test
   displayName: 'npm install and build'
 - script:
+    npm uninstall node-sass
+    npm install node-sass
+  displayName: 'Install sass'
+- script:
    npm install -g gulp
    gulp default --gulpfile gulpfile.js
   displayName: 'npm install and run gulp'
